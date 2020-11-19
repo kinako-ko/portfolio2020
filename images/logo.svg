@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="85.76" viewBox="0 0 140 85.76">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_66" data-name="長方形 66" width="44.1" height="15.57" transform="translate(49 58)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="長方形_68" data-name="長方形 68" width="21.4" height="8.76" transform="translate(70.8 77)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="logo" transform="translate(70 42.88)">
+    <g id="グループ_70" data-name="グループ 70" transform="translate(-70 -42.88)">
+      <g id="グループ_63" data-name="グループ 63">
+        <g id="グループ_62" data-name="グループ 62" clip-path="url(#clip-path)">
+          <g id="グループ_61" data-name="グループ 61">
+            <g id="グループ_60" data-name="グループ 60" clip-path="url(#clip-path)">
+              <text id="yukina" transform="translate(49 70.9)" fill="#527778" font-size="16" font-family="OskarInline-OneRegular, Oskar Inline One"><tspan x="0" y="0">yukina</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="グループ_67" data-name="グループ 67">
+        <g id="グループ_66" data-name="グループ 66" clip-path="url(#clip-path-3)">
+          <g id="グループ_65" data-name="グループ 65">
+            <g id="グループ_64" data-name="グループ 64" clip-path="url(#clip-path-3)">
+              <text id="SAITO" transform="translate(70.8 84.2)" fill="#527778" font-size="9" font-family="OskarInline-OneRegular, Oskar Inline One"><tspan x="0" y="0">SAITO</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="パス_45" data-name="パス 45" d="M70,14.2c31.8,0,57.6,31.5,58,69.2h12C140,37.3,108.7,0,70,0S0,37.3,0,83.3H12c.5-37.7,26.2-69.1,58-69.1" fill="#95b9ba"/>
+      <path id="パス_48" data-name="パス 48" d="M70,21.8c-28.7,0-52,27.4-52.5,61.5H27.8c.9-27.1,19.6-49.8,42.6-49.8S112.1,56.2,113,83.3h9.4C122,49.3,98.7,21.8,70,21.8" fill="#86ba84"/>
+      <path id="パス_51" data-name="パス 51" d="M70.4,41.6c-19.6,0-35.5,18.6-35.9,41.8h7.4c1.2-18.3,13.5-33.6,28.5-33.6S97.6,65.1,98.8,83.3h7.5C105.9,60.1,90,41.6,70.4,41.6" fill="#b8ba95"/>
+    </g>
+  </g>
+</svg>

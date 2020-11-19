@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" contents="width=device-width, initial-scale=1.0"> -->
+    <title>yukina niimi portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="logo">
+            <a href="./index.html"><img src="./images/logo.svg" alt="ロゴ"></a>
+        </div>
+        <ul class="header-inner">
+            <li class="nav-top current"><a href="./index.html">top</a></li>
+            <li class="nav-about"><a href="./about/index.html">about</a></li>
+            <li class="nav-works"><a href="">works</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+    </header>
+    <main class="hero">
+        <div class="hero-inner">
+            <div class="hero-title">
+                <p>想いをカタチに</p>
+                <h1>yukina saito</h1>
+                <h2>portfolio</h2>
+            </div>
+            <div class="hero-img"></div>
+        </div>
+        <a href="#profile" class="arrow" id="scroll">scroll</a>
+    </main>
+    <section class="contents profile" id="profile">
+        <div class="contents-inner">
+            <h2 class="contents-title">profile</h2>
+            <p class="contents-sub">ーご紹介ー</p>
+        </div>
+        <div class="common-wrap">
+            <div class="common-inner profile-inner">
+                <div class="profile-img">
+                    <img src="./images/profile@2x.jpg" alt="プロフィール写真">
+                </div>
+                <div class="profile-text">
+                    <p>さいとう ゆきな</p>
+                    <p>愛知県知多半島出身、東京都在住。</p>
+                    <p>19年3月に退職し、同年6月より<span class="maker maker-in">未経験でバックエンドエンジニアに転職。</span></p>
+                    <p>プログラミングの楽しさを日々学ぶ中で、<span  class="maker maker-in">よりクライアントに近い立場でものづくりがしたいという思いからフロントエンドに興味を持ち</span>、20年3月より、WEBデザインとフロントエンド言語の勉強をはじめました。</p>
+                    <p>前職の医療職で学んだ<span  class="maker maker-in">『相手の立場にたって考える姿勢』</span>をモットーに、1人でも多くの人が感動・共感するようなものを創りたいです。</p>
+                </div>
+            </div>
+            <div class="btn-wrap"><button onclick="location.href='./about/index.html'" class="btn">read more</button></div>
+        </div>
+        <img src="./images/name@2x.jpg" alt="yukina niimi" class="profile-name__img">
+        <img src="./images/rainbow@2x.png" alt="虹の画像" class="profile-rainbow__img">
+    </section>
+    <section class="contents skills">
+        <div class="contents-inner">
+            <h2 class="contents-title">skills</h2>
+            <p class="contents-sub">ースキルー</p>
+        </div>
+        <div class="common-wrap">
+            <dl class="common-inner">
+                <div class="skills-block">
+                    <img src="./images/slills_design.png" alt="マウスのアイコン">
+                    <dt class="skills-title">デザイン</dt>
+                    <dd class="skills-text">20年3月より、デジタルハリウッドSTUDIO by LIGで勉強を始めました。
+                        <p>本質を考え、クライアントの想いをカタチにするデザイナー/エンジニアを目指しています。</p>
+                    </dd>
+                </div>
+                <div class="skills-block">
+                    <img src="./images/skills_program.png" alt="キーボードのアイコン">
+                    <dt class="skills-title">コーデイング</dt>
+                    <dd class="skills-text">19年4月より、javascript,PHPの勉強から始め、様々な言語の習得をしてきました。実務では主にlarabelを使用しています。
+                        <p>わからない部分は追及し課題解決しています。</p>
+                    </dd>
+                </div>
+                <div class="skills-block">
+                    <img src="./images/skills_mind.png" alt="スマイルのアイコン">
+                    <dt class="skills-title">マインド</dt>
+                    <dd class="skills-text">ひととの対面が必要不可欠な前職の医療現場では、『笑顔がステキね』『感じがいいネ』と言っていただける機会が多く、患者様と良好な関係を築いていました。
+                        <p>この人に仕事を頼むと『楽しいな！』『気持ちがいいな！』と思っていただけるデザイナー/エンジニアを目指しています。</p>
+                    </dd>
+                </div>
+            </dl>
+        </div>
+        <div class="common-wrap">
+            <div class="common-inner">
+                <div class="skills-detail skills-block"> illustrator / Photoshop / adobe XD</div>
+                <div class="skills-detail skills-block">HTML5 / CSS / sass / javascript / jQuery / Vue.js / React.js / PHP / laravel / Node.js / MySQL / Git</div>
+                <div class="skills-detail skills-block">前向き / 好奇心 / 向上心 / スマイル</div>
+            </div>
+        </div>
+    </section>
+    <section class="contents works">
+        <div class="contents-inner">
+            <h2 class="contents-title">works</h2>
+            <p class="contents-sub">ー制作物ー</p>
+        </div>
+        <div class="common-wrap works-wrap">
+            <ul class="common-inner works-inner">
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul>
+        </div>
+        <div class="btn-wrap"><button onclick="location.href='./index.html'" class="btn">read more</button></div>
+
+    </section>
+    <section class="contents contact">
+        <div class="contents-inner">
+            <h2 class="contents-title">contact</h2>
+            <p class="contents-sub">ーお問い合わせー</p>
+        </div>
+        <p>一緒にお仕事をさせていただける会社様を探しています。</p>
+        <p>下記のフォームまたはtwitterよりご連絡をお待ちしております。</p>
+        <div class="contents-btn__block">
+            <div class="btn-wrap"><button onclick="location.href='./index.html'" class="btn"><i class="fas fa-envelope icon"></i>form</button></div>
+            <div class="btn-wrap"><button onclick="location.href='./index.html'" class="btn"><i class="fab fa-twitter icon"></i>twitter</button></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <a href="./index.html"><img src="./images/logo-white.svg" alt="ロゴ" class="footer-logo"></a>
+    </footer>
+</body>
+
+</html>
